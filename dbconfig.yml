@@ -1,0 +1,5 @@
+development:
+  dialect: postgres
+  datasource: host=http://127.0.0.1:49400 dbname=fluber user=postgres password=root sslmode=disable
+  dir: migrations/postgres
+  table: migrations

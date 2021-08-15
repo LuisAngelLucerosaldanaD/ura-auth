@@ -1,0 +1,29 @@
+{
+  "app":{
+    "service_name": "Ura-auth",
+    "port": 50040,
+    "allowed_domains": "*",
+    "path_log": "./log",
+    "log_review_interval":60,
+    "register_log": true,
+    "rsa_private_key": "../rsa/app.rsa",
+    "rsa_public_key": "../rsa/app.rsa.pub",
+    "logger_http": false
+  },
+  "db": {
+    "engine": "postgres",
+    "server": "localhost",
+    "port": 5432,
+    "name": "ura",
+    "user": "postgres",
+    "password": "root",
+    "instance": "",
+    "is_secure": false
+  },
+  "smtp" : {
+    "smtp_port": 465,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_email": "luisangellucerosaldana20@gmail.com",
+    "smtp_password": "angel_12345"
+  }
+}
